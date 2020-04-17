@@ -12,3 +12,5 @@ instead of send the IP to the mail every, the script save the IP on the computer
 
 well after you reset the parametes on the script, you can run the script every X min/hours on the computer (by using crontab):
 */45 *    * * * root    /home/user/scripts/ip_email.py
+
+pay attention: the ip_email.py is python3 and the email_ip.py is python2 !!!
